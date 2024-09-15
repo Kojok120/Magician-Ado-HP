@@ -28,8 +28,9 @@ const Activities = () => {
         <Image
           src={isMobile ? "/images/activities-sp.jpg" : "/images/activities-pc.jpg"}
           alt="Activities Background"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
+          sizes="100vw"
           priority
         />
       </div>

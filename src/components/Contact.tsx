@@ -68,8 +68,9 @@ const Contact = () => {
         <Image
           src={isMobile ? "/images/contact-sp.jpg" : "/images/contact-pc.jpg"}
           alt="Contact Background"
-          fill sizes="100vw"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
+          sizes="100vw"
           priority
         />
       </div>
