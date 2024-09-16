@@ -48,11 +48,11 @@ const Profile = () => {
               {isJapanese ? 'プロフィール' : 'Profile'}
             </h2>
             <p className="text-white text-xl mb-4">
-              {isJapanese ? 'Ado Valentine' : 'Ado Valentine'}
+              {isJapanese ? 'Soma -Magician Ado' : 'Soma -Magician Ado'}
             </p>
             <p className="text-white text-lg md:text-xl">
               {isJapanese
-                ? '18歳でマジックに出会い、芸術性に魅了され半年後19歳でプロデビュー、現在は単身でオーストラリアへ修行中'
+                ? '18歳でマジックに出会い、芸術性に魅了され半年後19歳でプロデビュー。現在は単身でオーストラリアへ修行中。'
                 : 'Magician Ado discovered the world of magic at the age of 18 and was captivated by its artistry. Just six months later, at 19, Ado made a professional debut. Currently, Ado is in Australia, training solo to further master the craft.'}
             </p>
           </div>
