@@ -43,8 +43,8 @@ const Activities = () => {
             </h2>
             <p className="text-magic-white text-lg md:text-xl">
               {isJapanese
-                ? 'オーストラリアでストリートパフォーマンスをしています'
-                : 'Performing street magic in Australia'}
+                ? '現在ブリスベン在住。パーティー、イベント、ご要望に応じて出張マジックショー承っております'
+                : 'Parties, Events, available upon request. Currently in Brisbane, Australia'}
             </p>
           </div>
         </div>
